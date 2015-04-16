@@ -1,0 +1,64 @@
+body {
+	background-color: #ab6c65;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 32px;
+}
+
+main {
+	padding-top: 150px;
+	padding-left: 150px;
+}
+
+img {
+	width: 175px;
+}
+
+#images {
+	padding-left: 70px;
+	float: left;
+	max-width: 1024px;
+}
+
+a {
+	transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease;
+	transform: rotate(7deg);
+	text-align: center;
+	color: red;
+	display: block;
+	background-color: white;
+	float: left;
+	padding: 25px;
+	text-decoration: none;
+	box-shadow: 10px 5px 5px #FF283F;
+	border: 1px solid red;
+}
+
+a:nth-child(3n+2) {
+	transform: rotate(-10deg);
+	font-size: 32px;
+}
+
+a:nth-child(5n+5) {
+	transform: rotate(10deg);
+	font-size: 32px;
+
+}
+
+a:after {
+   content: attr(title);
+   display: block;
+}
+
+a:hover,  a:focus {
+	transform: rotate(0deg);
+	transform:  scale(1.5);
+	z-index: 2;
+	position: relative;
+	box-shadow: 30px 15px 15px black;	
+}
+
+article {
+	float: left;
+}

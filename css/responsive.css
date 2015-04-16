@@ -1,0 +1,198 @@
+@media screen (max-width: 1024px) {
+
+    .container{
+        width:90%;
+
+    }
+
+
+    header{
+        width:90%;
+        margin-left:15px;
+
+    }
+
+
+    #rightside {
+        width:93%;
+        float:left;
+        margin:0px;
+
+    }
+
+    #leftside {
+        margin-top:3px;
+        float:left;
+        width:93%;      
+        height:400px;
+        margin-left:-1px;
+    }
+
+    footer{
+        margin-left:0px;
+        margin-right:0px;
+        clear:both;
+        width:93%;
+        float:left;
+    }
+    nav {
+
+        width:90%;
+    }
+
+
+    nav ul {
+        width:45%;
+
+    }
+
+
+
+
+}
+
+@media (max-width: 640px) {
+
+
+
+    #contt{
+        overflow:auto;
+        width:55%;
+        clear:both;
+        float:left;
+
+    }
+
+    #wrapper{
+         overflow:hidden;     
+    }
+    header{
+        width:60%;
+
+    }
+    header h1{
+
+        margin-left:-80px;
+
+    }
+
+
+    nav ul {
+        width:55%;
+
+    }
+
+
+    #rightside {
+        width:55%;
+        float:left;
+
+
+    }
+
+    #leftside {
+        margin-top:4px;
+        margin-left:0px;
+        margin-right:0px;
+        float:left;
+        width:55%;      
+        height:400px;
+
+    }
+
+    #leftside ul {
+
+        width:450px;
+    }
+
+
+    footer{
+        margin-left:0px;
+        margin-right:0px;
+        clear:both;
+        width:55%;
+        float:left;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width: 480px) {
+
+    video{
+        width:95%;
+        height:95%;
+    }
+
+    #contt{
+        overflow:auto;
+        width:43%;
+        clear:both;
+        float:left;
+
+    }
+
+
+    header{
+        width:44%;
+        margin-left:0px;
+        margin-bottom:90px;
+    }
+
+    header h1 {
+        margin-left:5px;
+        font-size:24px;
+
+
+    }
+
+    nav ul {
+        margin:0px;
+        margin-left:-40px;
+        width:100%;
+
+    }
+
+    nav li {
+        display:list-item;
+        text-align:center;
+    }
+    #rightside {
+        height:1250px;
+        width:43%;
+        float:left;
+        margin-bottom:2px;
+    }
+
+    #boat{
+        height:260px;
+        margin:0 auto;
+        margin-top:2px;
+        margin-bottom:2px;
+    }
+
+
+
+    #leftside {
+        clear:both;
+        float:left;
+        width:43%;      
+        height:400px;
+
+
+    }
+
+    footer{
+        clear:both;
+        width:43%; 
+        float:left;
+    }
+
+
+
+
+}

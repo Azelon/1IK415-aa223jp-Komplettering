@@ -1,0 +1,302 @@
+body {
+    padding:0;
+    margin:0;
+    overflow:auto;
+}
+
+#wrapper {
+    height:100%;
+    width:75%;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    background:#E9E9E9;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:50;
+    width:100%;
+}
+
+nav ul {
+    list-style:none;
+    width:38%;
+    margin:0 auto;
+}
+nav li {
+    margin:0px;
+    display:inline;
+    padding:6px;
+    background:#22FF00;
+    transition:background 0.5s;
+    padding-bottom:1px;
+}
+
+nav li:hover{
+    background:#FF9881;
+}
+
+nav a {
+
+
+}
+nav a:hover{
+
+
+}
+
+
+h1 {
+    margin:0px;
+    padding:0px;
+    text-align:center;
+    font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    text-align:center;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    text-align:center;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    font-size:15px;
+    text-align:left;
+    margin-left:9%;
+    margin-right:9%;
+
+}
+a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration:none;
+    color:black;
+
+}
+
+
+.list {
+    margin-left:40%;
+    margin-right:auto;
+}
+
+
+.container h2 {
+	background:url("../img/task.png");
+	background-repeat: no-repeat;
+	padding-left:25px;
+}
+
+.container h3 {
+	background:url("../img/scroll.png");
+	background-repeat: no-repeat;
+	padding-left:25px;
+	width:25px;
+	height:25px;
+}
+
+.container p {
+    text-align: left;
+}
+
+.container h2 {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.container h3 {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.container ul {
+    text-align: left;
+    margin-left: 5%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    margin-bottom:10px;
+    margin-left:10px;
+    background:#3299BB;
+    
+    
+}
+th, td {
+    padding: 5px;
+}
+
+
+header {
+    width:76%;
+    height:75%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0px;
+    padding-top:10px;
+    background:#424242;
+    margin-top:25px;
+    color:white;
+    float:center;
+}
+
+header h1 {
+    margin-bottom:20px;
+
+
+}
+.form {
+	border: 1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#rightside {
+    margin-right:9px;
+    width:75%;
+    float:right;
+    height:100%;
+    background:#3299BB;
+}
+
+#leftside {
+    
+    margin-left:9px;
+    width:22%;    
+    background:blue;
+    height:100%;
+    margin-bottom:10px;
+    background:#BCBCBC;
+}
+
+#leftside ul {
+    list-style:none;
+}
+
+
+
+footer{
+    width:98.6%;
+    margin:0 auto;
+    background:gray;
+    height:50px;
+
+}
+
+
+.active {
+    color:blue;
+}
+
+
+#imgdiv1 {
+    margin-left:10px;
+    margin-bottom:2px;
+    background:url("../img/task.png");
+    float:left;
+    background-size:100%;
+    border:2px solid pink;
+}
+
+
+#imgdiv2 {
+    margin-left:20px;
+    margin-top:10px;
+    background:url("../img/scroll.png");
+    float:left;
+    background-size:100%;
+}
+
+#linux {
+    height:100px;  
+}
+#txtimg{
+    border:2px white solid;
+    height:40%;
+    width:40%;
+}
+
+section {
+border: 1px solid pink;
+background-color: gray;
+
+}
+
+article{
+    margin:0 auto;
+    margin-top:20px;
+    width:90%;
+    border-top:1px black solid;
+}
+
+
+.right{
+    float:right;
+
+}
+.left {
+    float:left;
+
+}
+
+
+#contt{
+    width:90%;
+    margin:0 auto;
+}
+
+#start {
+		background: url('../img/sprite.png') no-repeat 0 -49px;
+		width: 24px;
+		height: 22px;
+		padding-left:30px;
+}
+
+#lab {
+background: url('../img/sprite.png') no-repeat 0 -97px;
+ width: 24px;
+ height: 22px;
+ padding-left:30px;
+}
+
+
+#bio {
+	background: url('../img/sprite.png') no-repeat -1px -192px; 
+	width: 22px;
+	height: 24px;
+	padding-left:30px;
+}
+
+#contact {
+	background: url('../img/sprite.png') no-repeat 0 -288px;
+	width: 24px;
+	height: 24px;
+	padding-left:30px;
+}
+
+#start:hover{
+	background-position:0 -49px;
+
+}
+
+#bio:hover{
+	background-position:-1px -240px;
+}
+
+#lab:hover{
+	background-position: 0 -145px;
+}
+
+#contact:hover{
+	background-position: 0 -336px;
+}
